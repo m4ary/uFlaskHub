@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  uflaskhub:
+    image: m4ary/uflask-hub:latest
+    ports:
+      - "8000:8000" # Expose port 8000
+    restart: unless-stopped
+
+# Uncomment below lines if you need a custom network
+# networks:
+#   mynetwork:
+#     driver: bridge
+
