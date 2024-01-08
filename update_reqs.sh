@@ -10,7 +10,6 @@ fi
 python3 -m pipreqs.pipreqs --mode no-pin --force
 
 # Append Flask and uWSGI to requirements.txt
-echo "Flask" >> requirements.txt
 echo "uWSGI" >> requirements.txt
 
 echo "Requirements generation complete."

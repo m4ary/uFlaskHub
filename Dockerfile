@@ -25,9 +25,6 @@ RUN apt-get purge -y --auto-remove gcc libpcre3-dev
 # Make port 8000 available to the world outside this container
 EXPOSE 8000
 
-# Define environment variable
-ENV NAME World
-
 # Run app.py when the container launches
 CMD ["uwsgi", "uwsgi.ini"]
 

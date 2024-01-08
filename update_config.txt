@@ -1,0 +1,2 @@
+auth:github_pat_11
+github.com/m4ary/yourRepo.git

@@ -6,6 +6,8 @@ services:
     ports:
       - "8000:8000" # Expose port 8000
     restart: unless-stopped
+    volumes:
+      - /empty/folder/in/your/computer:/usr/src/app
 
 # Uncomment below lines if you need a custom network
 # networks:
