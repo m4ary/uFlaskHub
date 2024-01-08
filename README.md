@@ -3,6 +3,16 @@
 <p align="center">
     <img width="200" src="https://raw.githubusercontent.com/m4ary/uFlaskHub/main/uflask_logo.png" alt="uFlaskHub logo">
 </p>
+<p align="center">
+  <a href="https://hub.docker.com/r/m4ary/uflask-hub/"><img src="https://badgen.net/docker/pulls/m4ary/uflask-hub?icon=docker&label=pulls" /></a>
+  <a href="https://hub.docker.com/r/m4ary/uflask-hub/"><img src="https://badgen.net/docker/stars/m4ary/uflask-hub?icon=docker&label=stars" /></a>
+  <a href="https://hub.docker.com/r/m4ary/uflask-hub/"><img src="https://badgen.net/docker/size/m4ary/uflask-hub?icon=docker&label=image%20size" /></a>
+  <img src="https://badgen.net/github/stars/m4ary/uFlaskHub?icon=github&label=stars" />
+  <img src="https://badgen.net/github/forks/m4ary/uFlaskHub?icon=github&label=forks" />
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fm4ary%2FuFlaskHub&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=vists&edge_flat=false"/></a>
+  <img src="https://img.shields.io/github/last-commit/m4ary/uFlaskHub" />
+</p>
+
 
 uFlaskHub uses Docker, uWSGI, and Flask to make deploying Flask applications easy. It provides a containerized setup for quick and consistent deployment.
 
